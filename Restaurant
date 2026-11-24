@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Food House</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8f0;
+      color: #292929;
+    }
+    header {
+      background: #242424;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .hero {
+      text-align: center;
+      padding: 65px 15px;
+      background: #f4d5b4;
+    }
+    .hero h1 {
+      font-size: 34px;
+    }
+    .hero p {
+      font-size: 17px;
+    }
+    .menu {
+      padding: 30px 15px;
+      text-align: center;
+    }
+    .item {
+      background: white;
+      padding: 20px;
+      margin: 15px auto;
+      max-width: 350px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px #ddd;
+    }
+    .contact {
+      background: #242424;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+    .btn {
+      display: inline-block;
+      background: #d35400;
+      color:red;
+      padding: 12px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>FOOD HOUSE</h2>
+  <p>Fresh Food | Great Taste</p>
+</header>
+
+<section class="hero">
+  <h1>Welcome to Food House</h1>
+  <p>Enjoy delicious food with your family!</p>
+  <a class="btn" href="#menu">View Our Menu</a>
+</section>
+
+<section class="menu" id="menu">
+  <h2>Our Menu</h2>
+
+  <div class="item">
+    <h3>Chicken Burger</h3>
+    <p>₹149</p>
+  </div>
+
+  <div class="item">
+    <h3>Chicken Pizza</h3>
+    <p>₹249</p>
+  </div>
+
+  <div class="item">
+    <h3>French Fries</h3>
+    <p>₹99</p>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>Visit us today!</p>
+  <p>Phone: 9876543210</p>
+  <p>Chennai, Tamil Nadu</p>
+</section>
+
+</body>
+</html>
