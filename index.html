@@ -1,111 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
-
-    <title>My Food World</title>
-  
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #fff8f0;
-        }
-
-        header {
-            background: #242424;
-            color: white;
-            padding: 18px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        header h2 {
-            margin: 0;
-            color: orange;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 12px;
-        }
-
-        .hero {
-            background:  #252525;
-            color: white;
-            text-align: center;
-            padding: 65px 15px;
-        }
-
-        .hero h1 {
-            font-size: 40px;
-            color: orange;
-        }
-
-        .hero p {
-            font-size: 18px;
-        }
-
-        .btn {
-            display: inline-block;
-            background: #e65c00;
-            color: white;
-            padding: 13px 25px;
-            border-radius: 8px;
-            text-decoration: none;
-            margin-top: 12px;
-        }
-
-        .menu {
-            padding: 35px 15px;
-            text-align: center;
-        }
-
-        .menu h2 {
-            color: #3b2115;
-        }
-
-        .food-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .food {
-            background: white;
-            width: 280px;
-            padding: 15px;
-            border-radius: 14px;
-            box-shadow: 0 3px 12px #ddd;
-        }
-
-        .food img {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
-
-        .food h3 {
-            color: #9b4300;
-        }
-
-        .price {
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        .about {
-            background: #ffe0b2;
             padding: 35px 20px;
             text-align: center;
         }
@@ -140,6 +32,95 @@
                 max-width: 350px;
             }
         }
+      .order-btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 15px;
+    font-weight: bold;
+          }.order-btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 15px;
+      }
+      .order-btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 15px;
+      }
+      .about {
+    background: #fff3e0;
+    padding: 30px 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.about h2 {
+    color: #e65100;
+    font-size: 28px;
+}
+
+.about p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+      .services {
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.services h2 {
+    color: #e65100;
+    font-size: 28px;
+}
+
+.service-box {
+    background: #fff3e0;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 12px;
+    max-width: 350px;
+    box-shadow: 0 3px 8px #ccc;
+}
+
+.service-box h3 {
+    color: #d84315;
+}
+      .contact {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 20px;
+}
+
+.contact h2 {
+    color: orange;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+      }
     </style>
 </head>
 
@@ -178,6 +159,11 @@
             <h3>Chicken Burger</h3>
             <p>Fresh and crispy burger</p>
             <p class="price">₹199</p>
+          
+<a href="https://wa.me/919043020401?text=I%20want%20to%20order%20Chicken%20Burger"
+class="order-btn" target="_blank">
+Order on WhatsApp
+</a>
         </div>
 
         <div class="food">
@@ -187,6 +173,10 @@
             <h3>Chicken Pizza</h3>
             <p>Hot and cheesy pizza</p>
             <p class="price">₹299</p>
+          <a href="https://wa.me/919043020401?text=I%20want%20to%20order%20Chicken%20Pizza"
+class="order-btn" target="_blank">
+Order Pizza
+          </a>
         </div>
 
         <div class="food">
@@ -196,6 +186,10 @@
             <h3>French Fries</h3>
             <p>Golden crispy fries</p>
             <p class="price">₹99</p>
+          <a href="https://wa.me/919043020401?text=I%20want%20to%20order%20French%20Fries"
+class="order-btn" target="_blank">
+Order Fries
+          </a>
         </div>
 
     </div>
@@ -216,6 +210,40 @@
     <p>Chennai, Tamil Nadu</p>
     <p>Thank you for visiting!</p>
 </footer>
+<section class="about">
+    <h2>About FOOD ZONE</h2>
+    <p>
+        Welcome to FOOD ZONE!
+        We serve delicious burgers, pizza and
+        tasty food at affordable prices.
+        Fresh food, great taste, happy customers!
+    </p>
+</section>
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-box">
+        <h3>🍔 Food Delivery</h3>
+        <p>Fast and fresh food delivery.</p>
+    </div>
 
+    <div class="service-box">
+        <h3>🍕 Online Ordering</h3>
+        <p>Order your favourite food online.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>⭐ Quality Food</h3>
+        <p>Fresh ingredients and great taste.</p>
+    </div>
+  </section>
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Contact FOOD ZONE!</p>
+    <p>📞 Phone: Call us anytime</p>
+    <p>📍 Location: Walayar</p>
+    <a href="https://wa.me/919043020401" class="contact-btn">
+        Chat on WhatsApp
+    </a>
+  </section>
 </body>
 </html>
